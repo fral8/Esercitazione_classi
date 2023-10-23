@@ -32,7 +32,7 @@ if __name__=="__main__":
     impiegato1.setCognome("Rossi")
     impiegato1.setMatricola("A001")
     impiegato1.setStipendio(2000)
-    #impiegato1.aumenta_stipendio()
+    impiegato1.aumenta_stipendio()
     impiegato1.stampa_dettagli()
     print("ESERCIZIO 3:\n")
     automobile1=Automobile("","","")

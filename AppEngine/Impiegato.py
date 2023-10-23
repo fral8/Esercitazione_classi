@@ -30,11 +30,13 @@ class Impiegato():
         except:
             print('Inserisci un importo valido')
         
-    """ def aumenta_stipendio(self):
-       a= float(self.getStipendio())
-       b= 10
-       c= (a * b)/100
-       print(c) """
+    def aumenta_stipendio(self):
+        print(self.getStipendio())
+        a= float(self.getStipendio())
+        b= 10
+        c= (a * b)/100
+        print(c)
+        self.setStipendio(c)
 
     def stampa_dettagli(self):
         print(f"Impiegato: {self.getNome()} {self.getCognome()}, matricola: {self.getMatricola()}, stipendio: {self.getStipendio()}")
