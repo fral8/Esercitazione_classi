@@ -23,7 +23,8 @@ class Automobile():
     def set_anno(self, new_anno):
         try:
             new_anno = int(new_anno)
-        except:
+            self.anno_automobile = new_anno
+        except Exception as e:
             print("Inserimento caratteri testuali non valido\n")
     #DESCRIZIONE AUTO
     def descrizione(self):
