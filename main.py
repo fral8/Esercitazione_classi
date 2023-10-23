@@ -1,5 +1,6 @@
 from AppEngine.Persona import Persona
 from AppEngine.Animale import Animale
+from AppEngine.Impiegato import Impiegato
 
 
 if __name__=="__main__":
@@ -22,3 +23,13 @@ if __name__=="__main__":
     animale2.setNome("Pallino")
     animale2.setSpecie("gatto")
     animale2.emetti_suono()
+    
+if __name__=="__main__":
+    print("ESERCIZIO 2:")
+    impiegato1=Impiegato("","","","")
+    impiegato1.setNome("Mario")
+    impiegato1.setCognome("Rossi")
+    impiegato1.setMatricola("A001")
+    impiegato1.setStipendio(2000)
+    #impiegato1.aumenta_stipendio()
+    impiegato1.stampa_dettagli()
