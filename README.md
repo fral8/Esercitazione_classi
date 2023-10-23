@@ -26,3 +26,10 @@ Un metodo “calcola_costi_magazzinaggio” che calcoli i costi di magazzinaggio
 Crea inoltre una classe Prodotto che abbia gli attributi “nome”, “prezzo” e “scorta”.
 
 nuova release
+
+
+
+🍰 Esercizio BONUS --> [ aggiungere come new Feature] Federico+FRancesca
+Creare una classe POW che permetta di effettuare la potenza di un numero elevato al numero x. La classe Potenza accetta due variabili, il numero ed il numero di elevazioni. Utilizzare la ricorsione
+Merge con develop (in automatico)
+Release
