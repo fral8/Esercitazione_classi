@@ -15,18 +15,18 @@ class Impiegato():
         return self.stipendio_classImpiegato
     
     def setNome(self,new_nome):
-        self.nome_classeImpiegato=new_nome
+        self.nome_classImpiegato=new_nome
     
     def setCognome(self,new_cognome):
-        self.cognome_classeImpiegato=new_cognome
+        self.cognome_classImpiegato=new_cognome
 
     def setMatricola(self,new_matricola):
-        self.matricola_classeImpiegato=new_matricola
+        self.matricola_classImpiegato=new_matricola
         
     def setStipendio(self,new_stipendio):
         try:
             new_stipendio=float(new_stipendio)
-            self.stipendio_classeImpiegato=new_stipendio
+            self.stipendio_classImpiegato=new_stipendio
         except:
             print('Inserisci un importo valido')
         
@@ -35,8 +35,7 @@ class Impiegato():
         a= float(self.getStipendio())
         b= 10
         c= (a * b)/100
-        print(c)
-        self.setStipendio(c)
+        self.setStipendio(a+c)
 
     def stampa_dettagli(self):
         print(f"Impiegato: {self.getNome()} {self.getCognome()}, matricola: {self.getMatricola()}, stipendio: {self.getStipendio()}")

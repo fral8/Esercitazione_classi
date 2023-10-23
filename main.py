@@ -11,8 +11,7 @@ if __name__=="__main__":
     persona1.setSesso("m")
     persona1.setAge(32)
     persona1.presentati()
-    
-if __name__=="__main__":
+
     print("ESERCIZIO 1:")
     animale1=Animale("","","")
     animale1.setNome("Fuffy")
@@ -24,10 +23,8 @@ if __name__=="__main__":
     animale2.setNome("Pallino")
     animale2.setSpecie("gatto")
     animale2.emetti_suono()
-    
-if __name__=="__main__":
     print("ESERCIZIO 2:")
-    impiegato1=Impiegato("","","","")
+    impiegato1=Impiegato("","","",0)
     impiegato1.setNome("Mario")
     impiegato1.setCognome("Rossi")
     impiegato1.setMatricola("A001")
